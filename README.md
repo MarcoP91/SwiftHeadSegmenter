@@ -24,11 +24,12 @@ After an initial phase of training (100 epochs, lr of 1e-4 with CosineAnnealingL
 
 Using torch.jit and coremltools I converted the pytorch model into a CoreML one. the image inoput size was fixed at (256,256), same as training, and the output would be of MLMultiArray type. Since the model outputs a probability for each pixel to be the pixel of a head, I used numpy.where with a threshold value for receiving a binary array.
 
-## The App.
+## The App
 The app's usage is straightforward. It allows the user t select any photo in his gallery, and than shows the segmentation result from the model, whle saving it as a .png in the Documents folder.
 
 <img src="https://github.com/ZedZeal/SwiftFaceSegmenter/blob/main/pics/Screenshot 2021-02-27 at 10.21.15.png" width="200" height="400">
 
+<img src="https://github.com/ZedZeal/SwiftFaceSegmenter/blob/main/pics/Screenshot 2021-02-27 at 10.21.34.pngg" width="200" height="400">
 
 
 
