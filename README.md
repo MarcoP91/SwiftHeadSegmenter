@@ -28,7 +28,7 @@ Using torch.jit and coremltools I converted the pytorch model into a CoreML one.
 The app's usage is straightforward. It allows the user t select any photo in his gallery, and than shows the segmentation result from the model, whle saving it as a .png in the Documents folder.
 
 
-Solarized dark             |  Solarized Ocean
+Before selection            |  After selection
 :-------------------------:|:-------------------------:
 <img src="https://github.com/ZedZeal/SwiftFaceSegmenter/blob/main/pics/Screenshot 2021-02-27 at 10.21.15.png" width="200" height="400">  |  <img src="https://github.com/ZedZeal/SwiftFaceSegmenter/blob/main/pics/Screenshot 2021-02-27 at 10.21.34.png" width="200" height="400">
 
